@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hebra & Aura | Cuidado Capilar Experto</title>
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand-logo">
+        <img src="logo1.jpg" alt="Logo Hebra & Aura" class="nav-logo-img">
+        <span class="brand-title">Hebra & Aura</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#video-destacado">Demostración</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a href="https://wa.me/51913845288?text=Hola,%20quisiera%20asesor%C3%ADa%20sobre%20los%20productos%20capilares" class="btn btn-primary nav-btn" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- 1. Sección Hero / Inicio con fondo hero.jpg -->
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="badge-hero">100% Originales & Veganos</span>
+      <h1 class="hero-title">Revive la vitalidad, brillo y definición de tu cabello</h1>
+      <p class="hero-subtitle">
+        Tratamientos capilares, kits de hidratación y cremas de peinar seleccionadas para potenciar tu textura natural sin maltratar tu hebra.
+      </p>
+      <div class="hero-actions">
+        <a href="#catalogo" class="btn btn-primary">Ver Catálogo</a>
+        <a href="https://wa.me/51913845288?text=Hola,%20me%20gustar%C3%ADa%20recibir%20asesor%C3%ADa%20personalizada" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+          Asesoría Gratis
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Sección Video: Antes del catálogo con título Hebra & Aura -->
+  <section class="video-section" id="video-destacado">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">En Acción</span>
+        <h2 class="section-title section-title-brand">Hebra & Aura</h2>
+        <p class="section-desc">Comprueba la textura ligera, hidratación y definición que aportan nuestros productos en cada hebra.</p>
+      </div>
+
+      <div class="video-wrapper">
+        <div class="video-card">
+          <video controls playsinline preload="metadata" poster="recuadro1.jpg" class="player-video">
+            <source src="video1.mp4" type="video/mp4">
+            Tu navegador no admite la reproducción de videos HTML5.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Catálogo de Productos (3 Recuadros Grandes) -->
+  <section class="catalog" id="catalogo">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Colección Selecta</span>
+        <h2 class="section-title">Nuestros Favoritos de Temporada</h2>
+        <p class="section-desc">Encuentra la rutina ideal para tu tipo de hebra: rizos, lisos o cabello dañado.</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Recuadro Grande 1 (recuadro1.jpg) -->
+        <article class="product-card">
+          <div class="product-badge">Pack Completo</div>
+          <div class="product-image">
+            <img src="recuadro1.jpg" alt="Packs Skala Crema 2 en 1 de 1 kg + Shampoo + Acondicionador" onerror="this.onerror=null; this.src='recuadro1.png';">
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Nutrición & Cuidado Total</span>
+            <h3 class="product-name">Packs Skala Crema 2 en 1 de 1 kg + Shampoo + Acondicionador</h3>
+            <p class="product-desc">Shampoo 325ml + Acondicionador 325ml + Crema 2 en 1 de 1 Kilo.</p>
+            <div class="product-footer">
+              <span class="product-price">S/ 64.90</span>
+              <a href="https://wa.me/51913845288?text=Hola,%20deseo%20comprar%20el%20Pack%20Skala%20Crema%201kg%20+%20Shampoo%20+%20Acondicionador" class="btn-card" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> Comprar
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Recuadro Grande 2 (recuadro2.jpg) -->
+        <article class="product-card">
+          <div class="product-badge">Top Ventas</div>
+          <div class="product-image">
+            <img src="recuadro2.jpg" alt="Cremas de Tratamiento 2 en 1 (1kg)" onerror="this.onerror=null; this.src='recuadro2.png';">
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Hidratación & Definición</span>
+            <h3 class="product-name">Cremas de Tratamiento 2 en 1 (1kg)</h3>
+            <p class="product-desc">Potes gigantes multiuso: crema de peinar y tratamiento intensivo.</p>
+            <div class="product-footer">
+              <span class="product-price">S/ 35.00</span>
+              <a href="https://wa.me/51913845288?text=Hola,%20quiero%20consultar%20variedades%20disponibles%20de%20cremas%201kg" class="btn-card" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> Comprar
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Recuadro Grande 3 (recuadro3.jpg) -->
+        <article class="product-card">
+          <div class="product-badge">Protector Térmico</div>
+          <div class="product-image">
+            <img src="recuadro3.jpg" alt="Skala Crema de Peinar 250 gramos" onerror="this.onerror=null; this.src='recuadro3.png';">
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Cuidado Capilar Avanzado</span>
+            <h3 class="product-name">Skala Crema de Peinar 250 gramos</h3>
+            <p class="product-desc">Producto 3 en 1 - Crema de Tratamiento, Crema de Peinar y Protector Térmico (hasta 230°C).</p>
+            <div class="product-footer">
+              <span class="product-price">S/ 25.00</span>
+              <a href="https://wa.me/51913845288?text=Hola,%20deseo%20comprar%20la%20Skala%20Crema%20de%20Peinar%20250%20gramos" class="btn-card" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> Comprar
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Beneficios Rápidos (Al final, antes del Footer) -->
+  <section class="features" id="beneficios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Garantía Hebra & Aura</span>
+        <h2 class="section-title">¿Por qué elegir nuestros productos?</h2>
+        <p class="section-desc">Pasa el cursor sobre cada recuadro para descubrir más detalles.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Recuadro 1: 100% vegano y 0% origen animal / apartado1 -->
+        <div class="feature-flip-card" tabindex="0">
+          <div class="feature-flip-inner">
+            <div class="feature-front">
+              <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+              <h3 class="feature-title-lowercase">100% vegano y 0% origen animal</h3>
+              <p>Libres de sulfatos agresivos, siliconas insolubles y parabenos.</p>
+            </div>
+            <div class="feature-back">
+              <img src="apartado1.jpg" alt="Fórmulas veganas y naturales" class="feature-back-img" onerror="this.onerror=null; this.src='apartado1.png';">
+            </div>
+          </div>
+        </div>
+
+        <!-- Recuadro 2: Entregas Rápidas / apartado2 -->
+        <div class="feature-flip-card" tabindex="0">
+          <div class="feature-flip-inner">
+            <div class="feature-front">
+              <div class="feature-icon"><i class="fas fa-shipping-fast"></i></div>
+              <h3>Entregas Rápidas</h3>
+              <p>Puntos de contraentrega y envíos seguros a domicilio.</p>
+            </div>
+            <div class="feature-back">
+              <img src="apartado2.jpg" alt="Entregas Rápidas" class="feature-back-img" onerror="this.onerror=null; this.src='apartado2.png';">
+            </div>
+          </div>
+        </div>
+
+        <!-- Recuadro 3: Garantía de Origen / apartado3 -->
+        <div class="feature-flip-card" tabindex="0">
+          <div class="feature-flip-inner">
+            <div class="feature-front">
+              <div class="feature-icon"><i class="fas fa-certificate"></i></div>
+              <h3>Garantía de Origen</h3>
+              <p>Productos 100% originales para resultados reales.</p>
+            </div>
+            <div class="feature-back">
+              <img src="apartado3.jpg" alt="Garantía de Origen" class="feature-back-img" onerror="this.onerror=null; this.src='apartado3.png';">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Pie de Página -->
+  <footer class="footer" id="contacto">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo-wrap">
+          <img src="logo1.jpg" alt="Logo Hebra & Aura" class="footer-logo-img">
+          <span class="brand-title brand-title-footer">Hebra & Aura</span>
+        </div>
+        <p>Cuidado capilar consciente, accesible y de alta calidad para realzar tu belleza auténtica.</p>
+      </div>
+
+      <!-- Frase Personal Motivacional -->
+      <div class="footer-quote-box">
+        <i class="fas fa-quote-left quote-icon"></i>
+        <blockquote class="motivational-quote">
+          "Cada hebra cuenta una historia de constancia y transformación. Cuando crees en tu potencial y cuidas cada detalle con pasión, ningún sueño queda fuera de tu alcance."
+        </blockquote>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contacto Directo</h4>
+        <p><i class="fab fa-whatsapp"></i> +51 913 845 288</p>
+        <p><i class="fas fa-map-marker-alt"></i> Lima, Perú</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 Hebra & Aura. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón Flotante de WhatsApp -->
+  <a href="https://wa.me/51913845288?text=Hola,%20me%20comunico%20desde%20su%20p%C3%A1gina%20web" class="whatsapp-floating-btn" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">¿Conversamos? Escríbenos</span>
+  </a>
+
+</body>
+</html>
